@@ -1,5 +1,7 @@
-from helpers import extract_upper, extract_lower as e_low
+from helpers import *
+import extras
 
-name = "Seeni Rengasamy"
-print(f"Lowercase Letters: {e_low(name)}")
-print(f"Uppercase Letters: {extract_upper(name)}")
+
+
+print(f"Lowercase Letters: {extract_lower(extras.name)}")
+print(f"Uppercase Letters: {extract_upper(extras.name)}")
