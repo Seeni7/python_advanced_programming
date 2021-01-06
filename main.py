@@ -1,7 +1,10 @@
+from helpers.strings import extract_lower
+from helpers import variables
 from helpers import *
-import extras
+import helpers
 
 
+print(f"Lowercase Letters: {extract_lower(variables.name)}")
+print(f"Uppercase Letters: {extract_upper(variables.name)}")
 
-print(f"Lowercase Letters: {extract_lower(extras.name)}")
-print(f"Uppercase Letters: {extract_upper(extras.name)}")
+print(f"From helpers: {helpers.strings.extract_lower(variables.name)}")
